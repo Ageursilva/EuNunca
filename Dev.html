@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h2>Dev do Futuro Exemplo de Codigo</h2>
+    <script>
+        var numeros = [];
+        var x = 0;
+        var indice = 2; //numero da posição que quero pegar no array 
+        var num = 0;
+        for (x = 0; x <= 7; x++) {
+            numeros[x] = Math.random() * 100; //Popula o array com numeros aleatorios
+            numeros[x] = Math.round(numeros[x]);
+            alert("Posição " + x + " do array de numeros é " + numeros[x]);
+        }
+        num = numeros[indice];
+        document.write(num);
+    </script>
+</body>
+
+</html>
